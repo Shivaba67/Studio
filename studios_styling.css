@@ -1,0 +1,90 @@
+body {
+    background-image: url(_camera\ picture_2.png);
+    background-size: cover;
+    color: wheat;
+    overflow: hidden;
+
+}
+
+.Slidebar {
+    width: 20rem;
+    height: 100vh;
+    background-color: rgba(127, 126, 126, 0.447);
+    /* display: none; */
+    position: absolute;
+    left: -500px;
+
+}
+
+#checkbox {
+    display: none;
+}
+
+#checkbox:checked~.Slidebar {
+    left: 0;
+    transition: left 0.5s ease-out;
+}
+
+#checkbox:checked~.barIcon {
+    display: none;
+}
+
+.head1 {
+    margin: 1.5rem;
+    display: inline-block;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.optionList {
+    list-style: none;
+
+}
+
+.option {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-family: cursive;
+    margin: 0.2rem;
+
+}
+
+.barIcon {
+    font-size: xx-large;
+    padding: 0.5rem;
+}
+
+.socialOption {
+    list-style: none;
+    display: flex;
+}
+
+.social_media {
+    display: inline-block;
+    position: absolute;
+    bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.cross {
+    margin-left: 1rem;
+    font-size: x-large;
+}
+
+.socialIcons {
+    margin: 0.3rem;
+    font-size: large;
+    opacity: 60%;
+}
+
+.option:hover {
+    box-shadow: 2px 2px 10px gray;
+}
+
+.socialIcons:hover {
+    opacity: 100%;
+}
