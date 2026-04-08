@@ -9,7 +9,7 @@ This project is a **simple sidebar navigation UI** created using **HTML and CSS*
 - Social media icons<br>
 - Background image layout<br>
 - Font Awesome icons integration<br>
-<br>
+  
 ## Technologies Used<br>
 - HTML5<br>
 - CSS3<br>
